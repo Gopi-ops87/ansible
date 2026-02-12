@@ -1,0 +1,21 @@
+{
+    "name": "Gopikrishna Pasham",
+    "DOB": "28-06-2000",
+    "Addresses":[
+        {
+            "type": "Current",
+            "doorno": "1-97",
+            "Street": "Gandhi Nagar",
+            "City": "Hyd",
+            "Pin": 518510
+        },
+        {
+            "type": "Current",
+            "doorno": "1-97",
+            "Street": "Gandhi Nagar",
+            "City": "Hyd",
+            "Pin": 518510
+        }
+    ],
+    "Skills": ["java", "python", "Devops"]
+}
