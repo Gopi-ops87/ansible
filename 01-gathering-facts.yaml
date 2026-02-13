@@ -1,0 +1,6 @@
+- name: gathering facts
+  hosts: local
+  connection: local
+  tasks:
+  - name: facts
+    ansible.builtin.ansble_facts:
