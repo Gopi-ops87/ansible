@@ -5,13 +5,13 @@
     Course: "Devops with AWS"  # String
     Duration: 120              # Number
     is_live: true              # boolean
-  tools:
-  - linux
-  - shell
-  - ansible
-  Conecpts:
-    Cloud: AWS
-    cm: ansible
+    tools:
+    - linux
+    - shell
+    - ansible
+    Conecpts:
+      Cloud: AWS
+      cm: ansible
   tasks:
   - name: print course info
     ansible.builtin.debug:
