@@ -5,11 +5,11 @@
     Course: "Devops with AWS"  # String
     Duration: 120              # Number
     is_live: true              # boolean
-    tools:
+    tools: # ["Linux", "Shell", "Ansible"]
     - linux
     - shell
     - ansible
-    Concepts:
+    Concepts:  # directory or map
       Cloud: AWS
       cm: ansible
   tasks:
