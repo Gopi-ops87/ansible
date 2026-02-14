@@ -3,6 +3,8 @@
   connection: local
   vars:
     technologies: Devops, mysql, python, Ansible  #string
+    name: "Gopikrishna Pasham"
+    gmail: gopi@GMAIL.COM
     tags:
       Application: payment
       Environment: prod
@@ -12,8 +14,6 @@
       value: payment
     - key: Environment
       value: Dev
-    name: Gopikrishna Pasham
-    gmail: gopi@GMAIL.COM
   tasks:
   - name: convert string into list
     ansible.builtin.debug:
