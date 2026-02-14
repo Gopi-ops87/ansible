@@ -3,6 +3,9 @@
   connection: local
   vars:
     technologies: Devops, mysql, python, Ansible  #string
+    tasg:
+      Application: payment
+      Environment: prod
   tasks:
   - name: convert string into list
     ansible.builtin.debug:
