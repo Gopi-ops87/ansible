@@ -6,6 +6,12 @@
     tags:
       Application: payment
       Environment: prod
+    # List  
+    listTags:
+    - key: Application
+      value: payment
+    - key: Environment
+      value: Dev
   tasks:
   - name: convert string into list
     ansible.builtin.debug:
@@ -15,3 +21,7 @@
   - name: convert map to list
     ansible.builtin.debug:
       msg: "Tags are {{ tags | dict2items }}"
+  
+  - name: convert list into map
+    ansible.builtin.debug:
+      msg: "tag map: {{ listTags | items2dict }}"
