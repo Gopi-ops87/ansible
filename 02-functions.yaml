@@ -3,7 +3,7 @@
   connection: local
   vars:
     technologies: Devops, mysql, python, Ansible  #string
-    tasg:
+    tags:
       Application: payment
       Environment: prod
   tasks:
