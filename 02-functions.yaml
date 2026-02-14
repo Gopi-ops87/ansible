@@ -5,7 +5,7 @@
     technologies: Devops, mysql, python, Ansible  #string
     name: "Gopikrishna Pasham"
     gmail: gopi@GMAIL.COM
-    ip_address: 1234:5621:72576:576
+    ip_address: 192.168.0.1
     tags:
       Application: payment
       Environment: prod
